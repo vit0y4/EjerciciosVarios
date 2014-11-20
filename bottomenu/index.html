@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Menú fixed</title>
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="mystyl.css">
+	 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+ 		<script>
+			$(document).ready(function(){
+				var altura = $(".menu-principal").offset().top; 
+				$(window).scroll(function(){
+					if($(window).scrollTop() >= altura){
+						$(".menu-principal").css("top","0");
+						$(".menu-principal").css("position","fixed");		
+					}else{
+						$(".menu-principal").css("top","0");
+						$(".menu-principal").css("position","static");
+						
+					}
+				});
+			});
+		</script>
+</head>
+<body>
+	<header>
+		<div class="background">
+			
+		</div>
+		<nav class="menu-principal" id="menu">
+		
+			<ul class="menu-principal-lista">
+				<li class="menu-principal-item"><a class="menu-principal-link" href="#encabezado">home</a></li>
+				<li class="menu-principal-item"><a class="menu-principal-link" href="#QuienesSomos">Quienes Somos</a></li>
+				<li class="menu-principal-item"><a class="menu-principal-link" href="#Servicios">Servicios</a></li>
+				<li class="menu-principal-item"><a class="menu-principal-link" href="#Contacto">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<p>PRIMER BLOQUE Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam mollitia illo repellat, culpa maxime officia maiores vitae nesciunt aut impedit, excepturi similique fugiat delectus nihil praesentium harum pariatur natus earum?</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam mollitia illo repellat, culpa maxime officia maiores vitae nesciunt aut impedit, excepturi similique fugiat delectus nihil praesentium harum pariatur natus earum?</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam mollitia illo repellat, culpa maxime officia maiores vitae nesciunt aut impedit, excepturi similique fugiat delectus nihil praesentium harum pariatur natus earum?</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam mollitia illo repellat, culpa maxime officia maiores vitae nesciunt aut impedit, excepturi similique fugiat delectus nihil praesentium harum pariatur natus earum?</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam mollitia illo repellat, culpa maxime officia maiores vitae nesciunt aut impedit, excepturi similique fugiat delectus nihil praesentium harum pariatur natus earum?</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam mollitia illo repellat, culpa maxime officia maiores vitae nesciunt aut impedit, excepturi similique fugiat delectus nihil praesentium harum pariatur natus earum?</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam mollitia illo repellat, culpa maxime officia maiores vitae nesciunt aut impedit, excepturi similique fugiat delectus nihil praesentium harum pariatur natus earum?</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam mollitia illo repellat, culpa maxime officia maiores vitae nesciunt aut impedit, excepturi similique fugiat delectus nihil praesentium harum pariatur natus earum?</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam mollitia illo repellat, culpa maxime officia maiores vitae nesciunt aut impedit, excepturi similique fugiat delectus nihil praesentium harum pariatur natus earum?</p>	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam mollitia illo repellat, culpa maxime officia maiores vitae nesciunt aut impedit, excepturi similique fugiat delectus nihil praesentium harum pariatur natus earum?</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam mollitia illo repellat, culpa maxime officia maiores vitae nesciunt aut impedit, excepturi similique fugiat delectus nihil praesentium harum pariatur natus earum?</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam mollitia illo repellat, culpa maxime officia maiores vitae nesciunt aut impedit, excepturi similique fugiat delectus nihil praesentium harum pariatur natus earum?</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam mollitia illo repellat, culpa maxime officia maiores vitae nesciunt aut impedit, excepturi similique fugiat delectus nihil praesentium harum pariatur natus earum?</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam mollitia illo repellat, culpa maxime officia maiores vitae nesciunt aut impedit, excepturi similique fugiat delectus nihil praesentium harum pariatur natus earum?</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam mollitia illo repellat, culpa maxime officia maiores vitae nesciunt aut impedit, excepturi similique fugiat delectus nihil praesentium harum pariatur natus earum?</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam mollitia illo repellat, culpa maxime officia maiores vitae nesciunt aut impedit, excepturi similique fugiat delectus nihil praesentium harum pariatur natus earum?</p>	
+	</section>
+</body>
+</html>
